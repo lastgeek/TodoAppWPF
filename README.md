@@ -15,7 +15,6 @@ This is a simple to-do list application built using C# programming language and 
 
 - C# programming language
 - WPF (Windows Presentation Foundation) for the user interface
-- MVVM (Model-View-ViewModel) design pattern for the application architecture
 - Newtonsoft.Json library for saving and loading the list of tasks as a JSON file
 
 ## Getting Started
@@ -34,12 +33,10 @@ This is a simple to-do list application built using C# programming language and 
 
 ## Usage
 
-1. To add a new task, click the "Add Task" button and enter a title and a description for the task.
+1. To add a new task, click an empty field and enter a description for the task.
 2. To mark a task as completed, click the checkbox next to the task.
-3. To delete a task, click the "Delete" button next to the task.
-4. To view the list of all tasks, click the "View All Tasks" button.
-5. To save the list of tasks to a file, click the "Save" button.
-6. To load the list of tasks from a file, click the "Load" button and select the file to load.
+3. To delete a task, select the task and press the "Delete" key on the keyboard.
+4. All tasks will be saved automatically when the application is closed, so you can exit the application at any time. When you reopen the application, all your tasks will be restored.
 
 ## License
 
